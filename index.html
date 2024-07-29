@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reseva XYZ</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo del Hotel" class="logo-img">
+        <h1>Miami Beach</h1>
+        <h3>HOTEL</h3>
+        </div>
+        <nav>
+        <a href="#" class="selected">Reservas</a>
+        <a href="#">Galería de fotos</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <section id="container">
+        
+        
+            <div class="form-group">
+                <div class="izq">
+                    
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="der">
+                    <h2>Haz tu reservación</h2>
+                    <h2 class="destacado">aquí</h2>
+                    <label for="customerType">Tipo de cliente:</label>
+                    <select id="customerType">
+                    <option value="Regular">Regular</option>
+                    <option value="Rewards">Recompensas</option>
+                    </select>
+                    <div class="fechas">
+                        <label for="dates">Ingrese sus fechas:</label>
+                        <input type="text" id="dates" placeholder="e.j. 16Mar2009(mon), 17Mar2009(tues)">
+                    </div>
+                    <button id="findHotel">Buscar</button>
+                </div>
+                
+                
+            </div>
+            <div id="result"></div>
+        <div class="hotels">
+            <div class="hotel-card" id="Lakewood">
+                <h2>Lakewood</h2>
+                <p>Calificación: ⭐⭐⭐</p>
+                
+            </div>
+            <div class="hotel-card" id="Bridgewood">
+                <h2>Bridgewood</h2>
+                <p>Calificación: ⭐⭐⭐⭐</p>
+                
+            </div>
+            <div class="hotel-card" id="Ridgewood">
+                <h2>Ridgewood</h2>
+                <p>Calificación: ⭐⭐⭐⭐⭐</p>
+                
+            </div>
+        </div>
+    </section>
+    
+    <div class="contacto">
+        <button>Más</button>
+        <div class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+        <p class="direccion">Miami </p>
+        </div>
+    <div class="copyrigth">
+            <p>&copy; Nathalia Condor - 2024 </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
