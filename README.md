@@ -1,7 +1,8 @@
-# Sistema de Reserva Hotel Miami Beach
+# Sistema de Reserva Hotel Miami Beach 🏖️
 
-**Sistema de Reserva XYZ** es una aplicación web diseñada para facilitar la reserva de habitaciones en hoteles en Miami. Esta aplicación permite a los usuarios encontrar el hotel más barato basado en el tipo de cliente y las fechas seleccionadas.
-**Tecnologías Utilizadas**
+**Sistema de Reserva Hotel Miami Beach ** es una aplicación web diseñada para facilitar la reserva de habitaciones en hoteles en Miami. Esta aplicación permite a los usuarios encontrar el hotel más barato basado en el tipo de cliente y las fechas seleccionadas.
+
+## 👩‍💻 Tecnologías Utilizadas
 -HTML: Para la estructura de la página.
 -CSS: Para los estilos y diseño visual.
 -JavaScript: Para la lógica de la aplicación.
